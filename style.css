@@ -1,0 +1,395 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	min-height: auto;
+	scroll-behavior: smooth;
+}
+
+@font-face {
+	font-family: "poppins";
+	src: url(images/Poppins-Regular.ttf);
+}
+#nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+#nav-links{
+	flex: 1%;
+	text-align: right;
+}
+#nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 4px 12px;
+	position: relative;
+	word-spacing: 10px;
+
+}
+#nav-links ul li a{
+	color: #0063AF;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	display: inline-block;
+}
+#nav-links ul li a::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	display: block;
+	background-color: #F1BA1B;
+	margin: auto;
+	transition: 0.5s;
+}
+#nav-links ul li a:hover:after{
+	width: 100%;
+}
+
+
+
+#logo{
+	width:  10%;
+	height: auto;
+	margin-left: 20px;
+}
+img{
+	width: 60%;
+	background-position: center;
+	height: auto;
+	margin-left: 20%;
+}
+
+#Home{
+	width: 100%;
+	height: 500px;
+	float: left;
+	background: #0063AF;
+	background-image: url(images/6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed; 
+	background-position-y: -300px;
+	
+}#Home h1{
+	font-size: 70px;
+	font-family: 'poppins';
+	color: #ffffff;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 250px;
+	
+}
+
+#About{
+	width: 100%;
+	height: 500px;
+	background-color: #0063AF;
+	float: left;
+}
+#bag1{
+	width: 30%;
+	height: 300px;
+	float: left;
+	background-color: white;
+	margin-right: 3.3333333%;
+	margin-top: 40px;
+	border-radius: 3%;
+
+}
+#About h3{
+	text-align: center;
+	font-family: poppins;
+	color: #F1BA1B;
+	font-size: 30px;
+}
+#bag1 p{
+	font-family:poppins;
+	font-size: 25px;
+	color: #0063AF;
+	text-align: center;
+	top: 20px;
+}
+
+#bag2{
+	width: 30%;
+	height: 300px;
+	float: left;
+	background-color: white;
+	margin-right: 3.3333333%;
+	margin-top: 40px;
+	border-radius: 3%;
+
+}
+#About h4{
+	text-align: center;
+	font-family: poppins;
+	color: #F1BA1B;
+	font-size: 30px;
+}
+#bag2 p{
+	font-family:poppins;
+	font-size: 25px;
+	color: #0063AF;
+	text-align: center;
+	top: 20px;
+}
+#bag3{
+	width: 30%;
+	height: 300px;
+	float: left;
+	background-color: white;
+	margin-right: 3.3333333%;
+	margin-top: 40px;
+	border-radius: 3%;
+
+}
+#bag3 h5{
+	text-align: center;
+	font-family: poppins;
+	color: #F1BA1B;
+	font-size: 30px;
+}
+#bag3 p{
+	font-family:poppins;
+	font-size: 25px;
+	color: #0063AF;
+	text-align: center;
+	top: 20px;
+}
+ p{
+	font-family:poppins;
+	font-size: 15px;
+	color: #ffffff;
+	text-align: center;
+	top: 20px;
+}
+#About h6{
+	text-align: center;
+	font-family: poppins;
+	color: #F1BA1B;
+	font-size: 30px;
+}
+#Services{
+	width: 100%;
+	height: 500px;
+	background-color: #ffffff;
+	float: left;
+}
+#box1{
+	width: 30%;
+	height: 300px;
+	float: left;
+	background-color: white;
+	margin-right: 3.3333333%;
+	margin-top: 40px;
+	border-radius: 3%;
+	background-image: url(images/3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+#box2{
+	width: 30%;
+	height: 300px;
+	float: left;
+	background-color: white;
+	margin-right: 3.3333333%;
+	margin-top: 40px;
+	border-radius: 3%;	background-image: url(images/4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+#box3{
+	width: 30%;
+	height: 300px;
+	float: left;
+	background-color: white;
+	margin-right: 3.3333333%;
+	margin-top: 40px;
+	border-radius: 3%;
+	background-image: url(images/5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+#Services h2{
+	text-align: center;
+	font-family: poppins;
+	color: #0063AF;
+}
+#Services h1{
+	text-align: center;
+	font-family: poppins;
+	color: #F1BA1B;
+	font-size: 30px;
+}
+#Services p{
+	font-family:poppins;
+	font-size: 15px;
+	color: #0063AF;
+	text-align: center;
+	top: 20px;
+
+}
+/* Tours */
+#Tours{
+	width: 100%;
+	height: 500px;
+	background-color: #111111;
+	float: left;
+}
+#cup1{
+	width: 60%;
+	height: 500px;
+	float: left;
+	background-color: #0063AF;
+
+	
+}
+#cup2{
+	width: 40%;
+	height: 500px;
+	float: left;
+	background-color: #0063AF;
+	float: right;
+	background-image: url(images/18.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	
+}
+#cup1 h1{
+	text-align: center;
+	font-family: poppins;
+	color: #F1BA1B;
+	font-size: 20px;
+	margin-top: 10px;
+}
+#cup1 p{
+	font-family:poppins;
+	font-size: 15px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 30px;
+	
+}
+#cup2 p{
+	font-family:poppins;
+	font-size: 25px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 460px;
+	
+	
+}
+
+.mag1{
+	width: 30%;
+	height: 300px;
+	float: left;
+	background-color: white;
+	margin-right: 3.3333333%;
+	margin-top: 38px;
+	background-image: url(images/12.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.mag2{
+	width: 30%;
+	height: 300px;
+	float: left;
+	background-color: white;
+	margin-right: 3.3333333%;
+	margin-top: 38px;
+	background-image: url(images/15.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.mag3{
+	width: 30%;
+	height: 300px;
+	float: left;
+	background-color: white;
+	margin-right: 3.3333333%;
+	margin-top: 38px;
+	background-image: url(images/14.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+#Contacts{
+	width: 100%;
+	min-height: 400px;
+	background-color:#6e6e6e;
+	float: right;
+	justify-content: center;
+	margin-top: 50px;
+	background-image: url(images/7.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#salome{
+	width: 50%;
+	margin-left: 25%;
+	height: 560px;
+	background-color:#ffffffbe;
+	float: left;
+	position: relative;
+}
+
+#Locations{
+	width: 100%;
+	margin-top: 50px;
+	height: 200px;
+	background-color: #0063AF;
+	float: left;
+}
+
+/* Footer */
+#footer{
+	font-family: "poppins";
+	font-weight: 2px;
+	width: 100%;
+	height: 150px;
+	background-color:#0a5b99;
+	float: left;
+	color: #fff;
+	text-align: left;
+}
+
+#ft{
+	width: 30%;
+	margin-left: 3.333%;
+}
+#email{
+     width: 100;
+	 background: #aaa0a069;
+	 border-radius: 15px;
+	 padding: 7px;
+	 border: 2px #fff;
+	 color: #fff;
+}
+#subscribe{
+	 border-radius: 15px;
+	 padding: 7px;
+	 border: 2px #fff;
+
+}
+
+form .sign{
+	background: #dddddd;
+}
